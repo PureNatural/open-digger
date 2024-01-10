@@ -1,9 +1,9 @@
-name: Apache ECharts
+name: amis
 type: Project
 data:
   platforms:
     - name: GitHub
       type: Code Hosting
       repos:
-        - id: 9185792
-          name: apache/echarts
+        - id: 183874244
+          name: baidu/amis
