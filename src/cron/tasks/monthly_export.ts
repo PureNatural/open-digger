@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { appendFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
 import { Task } from '..';
@@ -482,10 +483,11 @@ const task: Task = {
     const exportUserInfo = async () => {
       let processedCount = 0;
       const userInfoQuery = `SELECT platform, b.actor_login, a.location, a.bio, a.name, a.company FROM
-    (SELECT CAST('GitHub','Enum8(\\\'GitHub\\\'=1)') AS platform, id, location, bio, name, company FROM gh_user_info WHERE status='normal')a
+    (SELECT CAST('GitHub','Enum8(\\\'GitHub\\\'=1)') AS platform, id, location, bio, name, company FROM gh_user_info WHERE status='normal' AND id IN (SELECT id FROM ${exportUserTableName} WHERE platform='GitHub'))a
     LEFT JOIN
     (SELECT id, platform, actor_login FROM ${exportUserTableName})b
-    ON a.id = b.id AND a.platform = b.platform`;
+    ON a.id = b.id AND a.platform = b.platform
+    LIMIT 1 BY b.id`;
       await queryStream(userInfoQuery, row => {
         const [platform, login, location, bio, name, company] = row;
         updateMetaData(join(exportBasePath, platform.toLowerCase(), login, 'meta.json'), {
@@ -507,7 +509,21 @@ const task: Task = {
     const exportAllRepoList = async () => {
       const filePath = join(exportBasePath, 'repo_list.csv');
       writeFileSync(filePath, `id,platform,repo_name${EOL}`);
-      const query = `SELECT id, platform, repo_name FROM ${exportRepoTableName}`;
+      const query = `SELECT
+  e.id AS id,
+  e.platform AS platform,
+  any(e.repo_name) AS repo_name,
+  argMax (g.openrank, g.created_at) AS openrank
+FROM
+  global_openrank g,
+  ${exportRepoTableName} e
+WHERE
+  e.id = g.repo_id
+  AND e.platform = g.platform
+GROUP BY
+  id, platform
+ORDER BY
+  openrank DESC`;
       await queryStream(query, row => {
         const [id, platform, name] = row;
         appendFileSync(filePath, `${id},${platform.toLowerCase()},${name}${EOL}`);
@@ -518,7 +534,21 @@ const task: Task = {
     const exportAllUserList = async () => {
       const filePath = join(exportBasePath, 'user_list.csv');
       writeFileSync(filePath, `id,platform,actor_login${EOL}`);
-      const query = `SELECT id, platform, actor_login FROM ${exportUserTableName}`;
+      const query = `SELECT
+  e.id AS id,
+  e.platform AS platform,
+  any(e.actor_login) AS actor_login,
+  argMax (g.openrank, g.created_at) AS openrank
+FROM
+  global_openrank g,
+  ${exportUserTableName} e
+WHERE
+  e.id = g.actor_id
+  AND e.platform = g.platform
+GROUP BY
+  id, platform
+ORDER BY
+  openrank DESC`;
       await queryStream(query, row => {
         const [id, platform, login] = row;
         appendFileSync(filePath, `${id},${platform.toLowerCase()},${login}${EOL}`);

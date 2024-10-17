@@ -1295,6 +1295,264 @@ data:
           name: robot-clickhouse-ci-1
         - id: 24582011
           name: GiteaBot
+        - id: 33470835
+          name: docschina-bot
+        - id: 104646451
+          name: aws-aemilia-mxp
+        - id: 104544900
+          name: aws-aemilia-bah
+        - id: 104661415
+          name: aws-aemilia-yul
+        - id: 136437109
+          name: isomergithub70
+        - id: 104583231
+          name: aws-aemilia-dub
+        - id: 104520202
+          name: aws-aemilia-arn
+        - id: 104582264
+          name: aws-aemilia-bom
+        - id: 164520693
+          name: mateacademy-ai-mentor
+        - id: 60611498
+          name: sourcery-ai-bot
+        - id: 38661258
+          name: folio-translations
+        - id: 7901977
+          name: ivy-team
+        - id: 113140650
+          name: svc-cli-bot
+        - id: 124084908
+          name: gh-actions-test-bot
+        - id: 137281646
+          name: CodiumAI-Agent
+        - id: 102256036
+          name: cq-bot
+        - id: 72787771
+          name: xdev-renovate
+        - id: 70776706
+          name: openstack-k8s-ci-robot
+        - id: 145445537
+          name: rhtap-qe-bots-2
+        - id: 95282030
+          name: gardener-ci-robot
+        - id: 71030998
+          name: initializ-bot
+        - id: 51342364
+          name: platformsh-devrel
+        - id: 82905295
+          name: ack-bot
+        - id: 111048771
+          name: xdev-gh-bot
+        - id: 61247838
+          name: eclipse-zenoh-bot
+        - id: 155511566
+          name: security-alliance-bot
+        - id: 108553330
+          name: LizardByte-bot
+        - id: 164522902
+          name: ChainPatrol-bot
+        - id: 143721230
+          name: doris-robot
+        - id: 166700802
+          name: github-automation-metabase
+        - id: 45370463
+          name: brave-builds
+        - id: 162997992
+          name: stackloktesting
+        - id: 164105940
+          name: stacksmoke
+        - id: 159936581
+          name: environment-testing
+        - id: 80064576
+          name: cknowles-admin
+        - id: 159246943
+          name: apiiro-snyk
+        - id: 99971683
+          name: ShreyashBandekar21
+        - id: 173339725
+          name: jimegeiwo
+        - id: 162922985
+          name: haohaocreates
+        - id: 43630382
+          name: alex-pakalniskis
+        - id: 168005249
+          name: rhtap-ci-tests-bot
+        - id: 151977651
+          name: cangulo-bot
+        - id: 97138177
+          name: AlexKitIt
+        - id: 106536606
+          name: sumit-strobes
+        - id: 141206411
+          name: GtdsIndonesia
+        - id: 15991828
+          name: laravel-shift
+        - id: 132594048
+          name: ISOMERGITHUB33
+        - id: 53613928
+          name: mohamedSalehHegazy
+        - id: 151173432
+          name: prezo-ci-bkp
+        - id: 102694185
+          name: MatMarrr
+        - id: 95081821
+          name: team-interval
+        - id: 23442052
+          name: xcluz-git
+        - id: 95439798
+          name: gqgserver
+        - id: 5022995
+          name: bajarang-agarwal1
+        - id: 145339968
+          name: sam-platform-auto
+        - id: 132117782
+          name: kusamanetworkss
+        - id: 149433462
+          name: sam-platform-auto-2
+        - id: 84103551
+          name: multitest123
+        - id: 92076035
+          name: beitlk
+        - id: 56928262
+          name: postali-marketing
+        - id: 61610729
+          name: baby636
+        - id: 4621646
+          name: igibek
+        - id: 62535745
+          name: s-aka-moto
+        - id: 148913307
+          name: elaguerta-nr
+        - id: 158979731
+          name: duzhg56980
+        - id: 8964373
+          name: moz-hwine
+        - id: 130284980
+          name: alelialeli2
+        - id: 56990852
+          name: yupimaru
+        - id: 101814735
+          name: bsoprojects
+        - id: 41402825
+          name: vokaplok
+        - id: 130314939
+          name: yanshulmatok
+        - id: 48127076
+          name: ContactAddInformatique
+        - id: 104595665
+          name: aws-aemilia-kix
+        - id: 704250
+          name: cmr
+        - id: 98147650
+          name: kwaicsse
+        - id: 124901986
+          name: cheransengodan-sensiple
+        - id: 20226104
+          name: snyk-test
+        - id: 88676023
+          name: GateQuality
+        - id: 63350304
+          name: jdlab-dev
+        - id: 104070462
+          name: amir1387aht
+        - id: 115764622
+          name: seeronline
+        - id: 15693930
+          name: KrissV2
+        - id: 64667029
+          name: rickdoq
+        - id: 170894649
+          name: Wanderx13
+        - id: 88782659
+          name: WSA1k
+        - id: 175113066
+          name: swaggy111
+        - id: 32580384
+          name: c0ffincolors
+        - id: 89100268
+          name: llowvxe
+        - id: 55325034
+          name: jia6214876
+        - id: 156702024
+          name: ioBroker-Bot
+        - id: 114004748
+          name: cingmanwu
+        - id: 31872143
+          name: TL-Yao
+        - id: 57792770
+          name: ytl2019
+        - id: 3389845
+          name: PiaoR
+        - id: 58259069
+          name: bambootest-bot
+        - id: 87254977
+          name: ahmar7
+        - id: 171268329
+          name: DigitalPlatFoundation
+        - id: 77073439
+          name: webkit-commit-queue
+        - id: 28621316
+          name: NordicBuilder
+        - id: 14542386
+          name: gentoo-bot
+        - id: 58790826
+          name: elasticsearchmachine
+        - id: 10336601
+          name: daocloudpublic
+        - id: 92915184
+          name: airbyteio
+        - id: 76178356
+          name: OSBotify
+        - id: 101608348
+          name: llamatester
+        - id: 17281578
+          name: yugabyte-ci
+        - id: 45043797
+          name: nixos-discourse
+        - id: 47979223
+          name: rustbot
+        - id: 110908925
+          name: bot-gitexp-user
+        - id: 120460335
+          name: pix-bot-github
+        - id: 69588470
+          name: posthog-bot
+        - id: 97558700
+          name: mui-bot
+        - id: 152529449
+          name: bot2-harness
+        - id: 43204447
+          name: app-sre-bot
+        - id: 115476073
+          name: Satellite-QE
+        - id: 177514479
+          name: BambulabRobot
+        - id: 48055056
+          name: ch-code-analysis
+        - id: 41093903
+          name: sysopenci
+        - id: 137281497
+          name: bcbuild-github-agent
+        - id: 115160210
+          name: cloud-platform-concourse-bot
+        - id: 58012459
+          name: llvm-ci
+        - id: 111915794
+          name: gravity-ui-bot
+        - id: 129911861
+          name: leanprover-community-mathlib4-bot
+        - id: 37885440
+          name: metamaskbot
+        - id: 75649378
+          name: modernappsninjabot
+        - id: 58891217
+          name: bazel-flag-bot
+        - id: 46904574
+          name: flinkbot
+        - id: 39309875
+          name: spinnakerbot
+        - id: 40367165
+          name: asf-ci
     - name: Gitee
       type: Code Hosting
       users:
@@ -1336,3 +1594,11 @@ data:
           name: pta-robot
         - id: 7864319
           name: atlasaccount
+        - id: 13814391
+          name: anolis-bot-ci
+        - id: 13240069
+          name: yushi-Icy
+        - id: 5595483
+          name: licihua
+        - id: 12889549
+          name: fengwujin

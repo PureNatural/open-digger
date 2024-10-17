@@ -1,9 +1,9 @@
-name: Milvus
+name: Kurator
 type: Project
 data:
   platforms:
     - name: GitHub
       type: Code Hosting
       orgs:
-        - id: 51735404
-          name: milvus-io
+        - id: 106531824
+          name: kurator-dev
