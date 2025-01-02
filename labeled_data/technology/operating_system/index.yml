@@ -1,6 +1,11 @@
 name: Operating System
 type: Tech-0
 data:
+  labels:
+    - :companies/huawei/openharmony
+    - :companies/huawei/openeuler
+    - :companies/alibaba/anolis
+    - :companies/tencent/opencloudos
   platforms:
     - name: GitHub
       type: Code Hosting
