@@ -1,0 +1,18 @@
+name: Huazhong University of Science and Technology
+type: University-0
+meta:
+  name_zh: 华科大
+  name_zh_full: 华中科技大学
+data:
+  labels:
+    - ai
+    - jhl
+    - langya
+    - latex
+    - monkey
+    - ninglab
+    - oac
+    - os
+    - seclab
+    - smart
+    - vl

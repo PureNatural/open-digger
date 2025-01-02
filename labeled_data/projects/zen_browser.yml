@@ -1,0 +1,9 @@
+name: Zen Browser
+type: Project
+data:
+  platforms:
+    - name: GitHub
+      type: Code Hosting
+      orgs:
+        - id: 165225155
+          name: zen-browser

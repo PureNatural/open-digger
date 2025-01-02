@@ -1,6 +1,10 @@
 name: RedHat
 type: Company
 data:
+  labels:
+    - ceph
+    - openshift
+    - stackrox
   platforms:
     - name: GitHub
       type: Code Hosting

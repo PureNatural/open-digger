@@ -1,0 +1,11 @@
+name: Vercel
+type: Company
+data:
+  labels:
+    - next
+  platforms:
+    - name: GitHub
+      type: Code Hosting
+      orgs:
+        - id: 14985020
+          name: vercel

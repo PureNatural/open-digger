@@ -1,0 +1,13 @@
+name: Apache Kafka
+type: Project
+data:
+  platforms:
+    - name: GitHub
+      type: Code Hosting
+      repos:
+        - id: 2211243
+          name: apache/kafka
+        - id: 41348335
+          name: apache/kafka-site
+        - id: 823240044
+          name: apache/kafka-merge-queue-sandbox

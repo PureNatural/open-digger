@@ -1,0 +1,11 @@
+name: Expensify
+type: Company
+data:
+  labels:
+    - expensify
+  platforms:
+    - name: GitHub
+      type: Code Hosting
+      orgs:
+        - id: 476779
+          name: Expensify

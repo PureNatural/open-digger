@@ -1,9 +1,9 @@
-name: Dragonfly
+name: Python
 type: Project
 data:
   platforms:
     - name: GitHub
       type: Code Hosting
       orgs:
-        - id: 44993420
-          name: dragonflyoss
+        - id: 1525981
+          name: python

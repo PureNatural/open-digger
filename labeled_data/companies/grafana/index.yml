@@ -1,0 +1,14 @@
+name: Grafana Labs
+type: Company
+data:
+  labels:
+    - grafana
+    - loki
+    - mimir
+    - tempo
+  platforms:
+    - name: GitHub
+      type: Code Hosting
+      orgs:
+        - id: 7195757
+          name: grafana

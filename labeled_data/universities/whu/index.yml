@@ -1,0 +1,21 @@
+name: Wuhan University
+type: University-0
+meta:
+  name_zh: 武大
+  name_zh_full: 武汉大学
+data:
+  labels:
+    - coding_open
+    - ft
+    - great
+    - i2nav
+    - insar
+    - ir
+    - luojianet
+    - msc
+    - nlpwm
+    - openwhu
+    - rsiecd
+    - spatial_dis_lab
+    - tug
+    - usi3dv

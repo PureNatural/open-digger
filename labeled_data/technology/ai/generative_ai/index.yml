@@ -2,10 +2,10 @@ name: Artificial Intelligence - Generative Artificial Intelligence
 type: Tech-1
 data:
   labels:
-    - model
-    - tool
     - application
     - infrastructure
+    - model
+    - tool
   platforms:
     - name: GitHub
       type: Code Hosting

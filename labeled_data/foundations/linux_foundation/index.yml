@@ -1,6 +1,10 @@
 name: Linux Foundation
 type: Foundation
 data:
+  labels:
+    - sonic
+    - zephyr
+    - valkey
   platforms:
     - name: GitHub
       type: Code Hosting
